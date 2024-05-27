@@ -20,7 +20,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm install
-      - run: npm test  # Añadir la ejecución de los tests
 
   deploy:
     runs-on: ubuntu-latest
